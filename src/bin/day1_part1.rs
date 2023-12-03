@@ -1,8 +1,6 @@
-use std::num;
-
 fn main() {
-    let input = include_str!("../input.txt");
-    part1(input);
+    let input = include_str!("./day1_input1.txt");
+    dbg!(part1(input));
 }
 
 fn part1(input: &str) -> i32 {
